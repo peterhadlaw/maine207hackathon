@@ -1,0 +1,67 @@
+<template name="join">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+      <div class="page-header">
+        <h1>Join.</h1>
+      </div>
+
+      <form>
+        <div class="form-group">
+          <label class="sr-only" for="firstName">First Name</label>
+          <input id="firstName" class="form-control input-lg" type="text" name="firstName" placeholder="First Name">
+        </div>
+
+        <div class="form-group">
+          <label class="sr-only" for="lastName">Last Name</label>
+          <input id="lastName" class="form-control input-lg" type="text" name="lastName" placeholder="Last Name">
+        </div>
+
+        <div class="form-group">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" class="form-control input-lg" type="email" name="email" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <label class="sr-only" for="password">Password</label>
+          <input id="password" class="form-control input-lg" type="password" name="password" placeholder="Password">
+        </div>
+
+        <div class="form-group">
+          <label class="sr-only" for="passwordConfirm">Password Confirm</label>
+          <input id="passwordConfirm" class="form-control input-lg" type="password" name="passwordConfirm" placeholder="Password Confirm">
+        </div>
+
+        <div class="form-group">
+          <label for="schoolName">What school do you attend?</label>
+          <select id="schoolName" class="form-control input-lg" name="schoolName">
+            <option value="noSchoolSelected">Select School</option>
+            <option value="Maine South">Maine South</option>
+            <option value="Maine East">Maine East</option>
+            <option value="Maine West">Maine West</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="skillLevel">What is your skill level?</label>
+          <select id="skillLevel" class="form-control input-lg" name="skillLevel">
+            <option value="noSchoolSelected">Select Skill Level</option>
+            <option value="First Day Hacking">First Day Hacking - Woo!!</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Expert">Expert</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="teamCaptainEmail">Team Captain's Email (If you're on a team.)</label>
+          <input id="lastName" class="form-control input-lg" type="text" name="lastName" placeholder="Last Name" aria-describedby="helpBlock-teamCaptainEmail">
+          <span id="teamCaptainEmail" class="help-block">Make sure that everyone on your team submits the same email.</span>
+        </div>
+
+        <div class="form-group">
+          <button class="btn btn-lg btn-success btn-block" type="submit">Join 207Hack</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</template>
