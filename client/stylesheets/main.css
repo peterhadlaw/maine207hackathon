@@ -1,0 +1,13 @@
+body {
+  background: #399be4;
+}
+.navbar {
+  margin-top: 2em;
+  background: transparent;
+  text-transform: uppercase;
+  color: white;
+}
+
+#logo { 
+  padding: 0em;
+}
