@@ -17,9 +17,8 @@
 
   	      <div class="collapse navbar-collapse" id="navbar-collapse">
   	        <ul class="nav navbar-nav navbar-right">
-  	          <li><a href="#">Information</a></li>
+              <li><a href="{{pathFor 'schedule'}}">Schedule</a></li>
               <li><a href="{{pathFor 'faq'}}">FAQ</a></li>
-  	          <li><a href="#">Schedule</a></li>
   	          <li><a class="btn-join" href="{{pathFor 'join'}}">Join</a></li>
   	          <!--<li>
   	            <p class="navbar-btn">
@@ -34,8 +33,8 @@
   	  {{> yield}}
   	</div>
   </div>
-  <div id="lowerBody-{{currentPath}}" class="lowerBody-full-width-wrapper">
-    <div class="lowerBody container">
+  <div id="lowerBody-{{currentPath}}" class="lowerBody lowerBody-full-width-wrapper">
+    <div class="container">
       {{> yield "lowerBody"}}
     </div>
   </div>

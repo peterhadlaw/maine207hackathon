@@ -1,0 +1,26 @@
+<template name="schedule">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Schedule</h1>
+      <p>
+        What's going to happen when.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="lead">
+      	<dl class="text-center" id="faq-questions-list">
+      	  {{#each questions}}
+      	    <dt>
+      	      <h2>{{question}}</h2>
+      	    </dt>
+      	    <dd>
+      	      {{answer}}
+      	    </dd>
+      	  {{/each}}
+      	</dl>
+      </div>
+    </div>
+  </div>
+</template>
