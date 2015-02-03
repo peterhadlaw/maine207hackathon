@@ -58,7 +58,7 @@ Template.join.events({
         return Session.set(ERRORS_KEY, {'none': error.reason});
 
       Session.set('joinSuccessFirstName', user.profile.firstName);
-      Router.go('join/success');
+      Router.go('joinSuccess');
     });
 
   }

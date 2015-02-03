@@ -1,6 +1,57 @@
-body {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.full-width-wrapper {
+  color: #f7f7f7;
+  padding: 4em 0em;
+}
+
+.lowerBody{
+  padding: 4em 0em;
+}
+
+#body-home {
   background: #399be4;
 }
+#body-joinSuccess {
+  background: #dd544d;
+}
+
+#lowerBody-joinSuccess {
+  background: #dd544d;
+}
+
+/*#body-join {
+  background: #3a4043;
+}
+
+#lowerBody-join {
+  background: #3a4043;
+}*/
+
+#body-join {
+  background: #39ae9d;
+}
+
+#body-join .has-error .help-block {
+  color: #520A0A;
+}
+
+#lowerBody-join {
+  background: #39ae9d;
+}
+
+.help-block {
+  color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+  .full-width-wrapper {
+    padding-top: 1em;
+  }
+}
+
 .navbar {
   margin-top: 2em;
   background: transparent;
@@ -50,4 +101,43 @@ body {
 
 #logo { 
   padding: 0em;
+}
+
+.jumbotron {
+  background: none;
+  text-align: center;
+  color: #f7f7f7;
+  margin: 2em 0em;
+}
+
+.jumbotron h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#cta-btn-join {
+  font-size: 1.33em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.7em 1.9em;
+  margin-top: 1.2em;
+  background: none;
+  border: 3px solid #f7f7f7;
+  opacity: 0.8;
+}
+
+#cta-btn-join:hover {
+  opacity: 1;
+  border: 4px solid: #fff;
+}
+
+#definition {
+  text-transform: uppercase;
+}
+
+#definition small {
+  text-transform: none;
+}
+
+#hack-info-snippet h2 {
+  text-transform: uppercase;
 }
