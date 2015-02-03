@@ -5,7 +5,47 @@ body {
   margin-top: 2em;
   background: transparent;
   text-transform: uppercase;
+}
+
+.navbar-nav li {
+  margin: 0em 0.5em;
+}
+
+.navbar-nav a {
   color: white;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-rendering: optimzeLegibility;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 8px 32px !important;
+  border-radius: 4px;
+  opacity: 0.66;
+}
+.navbar-nav a:hover {
+  background: transparent !important;
+  opacity: 1.0;
+}
+
+.navbar-toggle {
+  border: 1px solid white;
+}
+
+.navbar-toggle .icon-bar {
+  background: white;
+}
+
+.btn-join {
+  border: 2px solid white;
+}
+
+@media (max-width: 767px) {
+  .btn-join {
+    border: none;
+  }
+  .navbar-nav li {
+    margin: 0em 0em;
+  }
 }
 
 #logo { 
