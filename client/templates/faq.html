@@ -1,0 +1,26 @@
+<template name="faq">
+  <div class="jumbotron">
+    <div class="container">
+      <h1>F.A.Q.</h1>
+      <p>
+        Everyone has questions, we've got the answers.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div class="lead">
+      	<dl class="text-center" id="faq-questions-list">
+      	  {{#each questions}}
+      	    <dt>
+      	      <h2>{{question}}</h2>
+      	    </dt>
+      	    <dd>
+      	      {{answer}}
+      	    </dd>
+      	  {{/each}}
+      	</dl>
+      </div>
+    </div>
+  </div>
+</template>

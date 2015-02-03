@@ -17,9 +17,15 @@ h1, h2, h3, h4, h5, h6 {
 #body-joinSuccess {
   background: #dd544d;
 }
-
 #lowerBody-joinSuccess {
   background: #dd544d;
+}
+
+#body-faq {
+  background: #3a4043;
+}
+#lowerBody-faq {
+  background: #3a4043;
 }
 
 /*#body-join {
@@ -138,6 +144,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
 }
 
-#hack-info-snippet h2 {
+#hack-info-snippet h2,
+#faq-questions-list h2{
   text-transform: uppercase;
+}
+
+#faq-questions-list dd {
+  margin-bottom: 4em;
 }
