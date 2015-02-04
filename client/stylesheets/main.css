@@ -100,6 +100,10 @@ h1, h2, h3, h4, h5, h6 {
   background: white;
 }
 
+.navbar-collapse {
+  box-shadow: none;
+}
+
 .btn-join {
   border: 2px solid white;
 }
@@ -113,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#logo { 
+#logo {
   padding: 0em;
 }
 
