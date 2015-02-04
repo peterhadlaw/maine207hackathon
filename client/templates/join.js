@@ -5,7 +5,15 @@ Template.join.created = function() {
 
   this.autorun(function() {
     if(Session.get(ERRORS_KEY).hasOwnProperty('none'))
-      swal("Oops...", Session.get(ERRORS_KEY).none, "error");
+      swal({
+        title: "Oops...",
+        text: Session.get(ERRORS_KEY).none,
+        type: "error",
+        showCancelButton: false,
+      },
+      function() {
+        Session.set(ERRORS_KEY, {});
+      });
   });
 };
 
