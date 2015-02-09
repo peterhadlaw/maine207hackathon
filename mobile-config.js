@@ -1,7 +1,7 @@
 App.info({
   name: '207Hack',
   description: 'Official app for the Maine Township High School District 207 Hackathon',
-  version: '0.0.2'
+  version: '0.0.3'
 });
 
 App.icons({
