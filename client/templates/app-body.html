@@ -17,9 +17,12 @@
 
   	      <div class="collapse navbar-collapse" id="navbar-collapse">
   	        <ul class="nav navbar-nav navbar-right">
-              <li><a href="{{pathFor 'schedule'}}">Schedule</a></li>
-              <li><a href="{{pathFor 'faq'}}">FAQ</a></li>
-  	          <li><a class="btn-join" href="{{pathFor 'join'}}">Join</a></li>
+              <li><a class="hidden-xs" href="{{pathFor 'schedule'}}">Schedule</a></li>
+              <li><a class="visible-xs" href="{{pathFor 'schedule'}}" data-toggle="collapse" data-target="#navbar-collapse">Schedule</a></li>
+              <li><a class="hidden-xs" href="{{pathFor 'faq'}}">FAQ</a></li>
+              <li><a class="visible-xs" href="{{pathFor 'faq'}}" data-toggle="collapse" data-target="#navbar-collapse">FAQ</a></li>
+  	          <li><a class="btn-join hidden-xs" href="{{pathFor 'join'}}">Join</a></li>
+  	          <li><a class="btn-join visible-xs" href="{{pathFor 'join'}}" data-toggle="collapse" data-target="#navbar-collapse">Join</a></li>
   	          <!--<li>
   	            <p class="navbar-btn">
   	              <a class="btn btn-primary btn-signin" href="#">Sign In</a>
